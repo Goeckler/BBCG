@@ -1,0 +1,57 @@
+{
+    "101": {
+        "name": "Buttercroissant",
+        "preise": {
+            "TK Stufe 1": 0.95,
+            "TK Stufe 2": 1.0,
+            "TK Stufe 3": 1.05,
+            "TK Stufe 4": 1.1,
+            "TK Stufe 5": 1.15,
+            "TK Stufe 6": 1.2
+        }
+    },
+    "102": {
+        "name": "Laugenstange",
+        "preise": {
+            "TK Stufe 1": 0.7,
+            "TK Stufe 2": 0.75,
+            "TK Stufe 3": 0.8,
+            "TK Stufe 4": 0.85,
+            "TK Stufe 5": 0.9,
+            "TK Stufe 6": 0.95
+        }
+    },
+    "103": {
+        "name": "Käsebrötchen",
+        "preise": {
+            "TK Stufe 1": 0.85,
+            "TK Stufe 2": 0.9,
+            "TK Stufe 3": 0.95,
+            "TK Stufe 4": 1.0,
+            "TK Stufe 5": 1.05,
+            "TK Stufe 6": 1.1
+        }
+    },
+    "104": {
+        "name": "Vollkornbrot",
+        "preise": {
+            "TK Stufe 1": 2.5,
+            "TK Stufe 2": 2.6,
+            "TK Stufe 3": 2.7,
+            "TK Stufe 4": 2.8,
+            "TK Stufe 5": 2.9,
+            "TK Stufe 6": 3.0
+        }
+    },
+    "105": {
+        "name": "Bauernkruste",
+        "preise": {
+            "TK Stufe 1": 2.2,
+            "TK Stufe 2": 2.3,
+            "TK Stufe 3": 2.4,
+            "TK Stufe 4": 2.5,
+            "TK Stufe 5": 2.6,
+            "TK Stufe 6": 2.7
+        }
+    }
+}
