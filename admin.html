@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Adminpanel Außendienst-Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Adminpanel</h1>
+
+    <section>
+        <h2>Übersicht bearbeiteter Kunden</h2>
+        <div id="adminKundenliste"></div>
+    </section>
+
+    <section>
+        <h2>Diagramme</h2>
+        <canvas id="chartPreisgruppen" width="400" height="200"></canvas>
+        <canvas id="chartVerkaufschancen" width="400" height="200"></canvas>
+    </section>
+
+    <section>
+        <h2>Export & Archivierung</h2>
+        <button onclick="exportCSV()">CSV Export</button>
+    </section>
+
+    <script src="admin.js"></script>
+</body>
+</html>
