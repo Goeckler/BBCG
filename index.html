@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Preisgruppenvergleich</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <h1>Preisgruppenvergleich – Außendienst</h1>
+
+    <section>
+        <label for="kundenauswahl">Kunde auswählen:</label>
+        <select id="kundenauswahl"></select>
+
+        <label for="preisgruppeNeu">Neue Preisgruppe wählen:</label>
+        <select id="preisgruppeNeu">
+            <option value="">Bitte wählen</option>
+            <option value="TK Stufe 1">TK Stufe 1</option>
+            <option value="TK Stufe 2">TK Stufe 2</option>
+            <option value="TK Stufe 3">TK Stufe 3</option>
+            <option value="TK Stufe 4">TK Stufe 4</option>
+            <option value="TK Stufe 5">TK Stufe 5</option>
+            <option value="TK Stufe 6">TK Stufe 6</option>
+        </select>
+    </section>
+
+    <section id="vergleichsbereich" style="display:none;">
+        <h2 id="kundenkopf"></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Artikel</th>
+                    <th>Menge</th>
+                    <th>Preis alt</th>
+                    <th>Umsatz alt</th>
+                    <th>Preis neu</th>
+                    <th>Umsatz neu</th>
+                    <th>Δ €</th>
+                    <th>Δ %</th>
+                </tr>
+            </thead>
+            <tbody id="vergleichstabelle"></tbody>
+            <tfoot id="summenbereich"></tfoot>
+        </table>
+    </section>
+
+    <script src="vergleich.js"></script>
+</body>
+</html>
